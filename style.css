@@ -1,0 +1,154 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+   margin:0;
+}
+
+/* HEADER */
+
+.header {
+    width: 1100%;
+    margin: auto;
+    position: relative;
+    background-color: #F0D9FF
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+    float: left;
+    color: #440b0b;
+   padding-left: 67px;
+}
+
+/* NAV */
+
+.menu {
+    float: right; 
+}  
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration:none;
+}
+
+nav ul li a:hover {
+    text-decoration:dashed;
+    color:rgb(41, 165, 187);
+}
+
+/* Home page */
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.deskripsi {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 70px;
+    padding-top: 129px;
+    padding-left: 164px;
+}
+
+/* SECTTION */
+div.poto {
+    margin: 5px;
+    border: 1px solid rgba(139, 139, 139, 0.37);
+    float: left;
+    width: 180px;
+  }
+  
+  div.poto :hover {
+    border: 1px solid rgb(223, 79, 151);
+  }
+  
+  div.poto img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  /* KONTAK */
+  .kontak-box {
+    min-height: 80vh;
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+h2 {
+    color: black;
+}
+
+ .kontak .title {
+    margin-top: -28px;
+}
+
+.title {
+    padding-left: 414px;
+}
+
+.kontak input, .kontak textarea {
+    width: 100%;
+    outline: none;
+    border: none;
+    margin-left: 10px;
+    font-family: sans-serif;
+}
+
+.kontak-name, .kontak-email, .kontak-pesan {
+    background: #fff;
+    color: #000;
+    border: 1px solid gray;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.btn-kontak {
+    background: rgb(35, 121, 219);
+    color: #fff;
+    padding: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
